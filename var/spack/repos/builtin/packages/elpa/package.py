@@ -73,7 +73,7 @@ class Elpa(AutotoolsPackage):
         #
         # LDFLAGS -> spec['lapack'].libs.search_flags
         # LIBS -> spec['lapack'].libs.link_flags
-
+        pass
 
     def configure_args(self):
         options = []
