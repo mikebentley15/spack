@@ -97,6 +97,7 @@ spack package at this time.''',
         # MPICH_F77=spack_f77
         # MPICH_F90=spack_fc
         # MPICH_FC=spack_fc
+        pass
 
     def setup_dependent_package(self, module, dependent_spec):
         if 'platform=cray' in self.spec:
